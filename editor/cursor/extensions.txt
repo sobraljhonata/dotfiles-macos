@@ -1,0 +1,4 @@
+# Cursor-specific extensions (IDs differ from VS Code Remote)
+
+anysphere.remote-containers
+anysphere.remote-ssh

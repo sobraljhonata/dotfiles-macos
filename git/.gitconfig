@@ -1,0 +1,23 @@
+[include]
+    path = ~/.gitconfig.local
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = cursor --wait
+    autocrlf = input
+
+[fetch]
+    prune = true
+
+[pull]
+    rebase = false
+
+[alias]
+    st = status
+    co = checkout
+    sw = switch
+    br = branch
+    cm = commit
+    lg = log --oneline --graph --decorate --all

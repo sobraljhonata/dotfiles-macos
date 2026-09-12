@@ -1,0 +1,4 @@
+# VS Code-specific Remote extensions (Microsoft marketplace IDs)
+
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh

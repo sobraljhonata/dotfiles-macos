@@ -1,0 +1,40 @@
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+*.backup
+*~
+
+# Segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Credenciais e tokens
+credentials
+secrets
+tokens
+auth.json
+
+# Arquivos / estado local da máquina
+.local
+*.local
+git/gitconfig.local
+
+# Inventário local de extensões (gerado por update.sh)
+editor/**/extensions.installed.txt
+
+# Artefatos gerados pelo apply de settings
+editor/generated/
+
+# Artefatos comuns
+node_modules/
+dist/
+build/
+coverage/
+.cache/

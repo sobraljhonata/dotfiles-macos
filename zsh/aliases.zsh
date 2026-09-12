@@ -1,0 +1,20 @@
+alias c="clear"
+alias ll="ls -lah"
+alias reload="source ~/.zshrc"
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gco="git checkout"
+alias gsw="git switch"
+alias lg="lazygit"
+
+alias dc="docker compose"
+alias dps="docker ps"
+alias dcu="docker compose up -d"
+alias dcd="docker compose down"
+
+alias mvnw="./mvnw"
